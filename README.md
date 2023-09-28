@@ -8,7 +8,7 @@ Ders 1 - Flutter ve Android Studio Kurulumu
 
 Ders 2 - Flutter Proje Oluşturma
 
-Ders 3 - Flutter Widget Yapısı: Material ve Scafold
+Ders 3 - Flutter Widget Yapısı: Material ve Scaffold
 
 Ders 4 - Temel Widgetlar: AppBar
 
