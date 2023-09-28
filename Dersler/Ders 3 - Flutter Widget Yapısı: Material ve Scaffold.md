@@ -24,6 +24,10 @@ https://gallery.flutter.dev/#/
 
   Kullanıcılar bir web sayfasında gezinirken yukarıda anlattığımız alışkanlıklar doğrultusunda hareket eder. Aynı bu durum mobil uygulamalar için de geçerlidir.
 
+![Screenshot](images/Resim15.png)
+![Screenshot](images/Resim16.png)
+  
+
   İşte Flutter burada devreye girmektedir. Flutter geliştiricilere Mobil Uygulamlarda standart haline gelmiş temel öğeleri ekrana getirip özelleştirme noktasında büyük kolaylık sunuyor. Flutter Material ve Cupertino 
 
 
