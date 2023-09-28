@@ -28,6 +28,32 @@ https://gallery.flutter.dev/#/
 ![Screenshot](images/Resim16.png)
   
 
-  İşte Flutter burada devreye girmektedir. Flutter geliştiricilere Mobil Uygulamlarda standart haline gelmiş temel öğeleri ekrana getirip özelleştirme noktasında büyük kolaylık sunuyor. Flutter Material ve Cupertino 
+  İşte Flutter burada devreye girmektedir. Flutter geliştiricilere Mobil Uygulamlarda standart haline gelmiş temel öğeleri ekrana getirip özelleştirme noktasında büyük kolaylık sunuyor. Flutter Material ve Cupertino widget sınıfları ile kullanıcılar hazır tema ve tasarım ilkelerine sahip widget'ları kullanmasını sağlar.
+
+  Scafold widget'ı ile kullanıcılara bir iskelet yapısı sunar ve böylece kullanıcılar, istediği widget'ı ekranın istediği yerinde gösterebilir.
+
+
+# Flutter main.dart dosyası
+
+Flutter backend kısımda dart programlama dilini kullanır. Dart nesne yönelimli bir dildir. Flutter projeleri çalışmak için bir başlangıç dosyasına ve main methoduna ihtiyaç duyar. Eğer aksi belirtilmemişse Flutter projelerinin başlangıç dosyaı proje kök dizini içinde yer alan *lib* klasörünün içindeki main.dart dosyasıdır.
+
+Flutter projesi çalıştırıldığında main.dart içerisindeki main metodu çalıştırılır.
+
+````
+void main() {
+  runApp(const MyApp());
+}
+
+//Veya 
+
+void main() =>  runApp(const MyApp());
+````
+
+main metdonunun içersinde projemizde oluşturacağımız uygulamamıza ait ana sınıf ismi ile birlikte runApp komutu ile çağrılıp çalıştırılır. Yukaridaki örnekte projemizimizin MyApp isimli ana sınıfı çağrılmıştır. Bu ana sınıf bir widget'tan türeyen başka bir widget sınıfıdır. MyApp ismi değiştirilerek kullanıcının istediği herhangi bir isim verilebilir.
+
+MyApp sınıfı Flutter'da iki temel sınıftan birini miras alabilir. Bunlar StatelessWidget ve StatefulWidget widgetlardır. Bu widgetların temel açıklamalarına yer verilmek ile birlikte daha sonra ayrıntısı ile anlatılacaktır.
+
+## StatelessWidget: Bu widgetlar i
+  
 
 
