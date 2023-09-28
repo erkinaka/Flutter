@@ -91,6 +91,7 @@ Eğer, kullanacağımız ekranda değişen herhangi bir yapımız yoksa bunu Sta
 
 Bu widgetler ekranımızın kök widgetları olup tasarımımızın temel kriterlerini belirler. Material tasarımı ekranımıza eklenen widgetlarda Material tasarım renkleri ve stilleri kullanırken, Cupertino IOS tarzı bir tasarım ve stilleri kullanır. 
 
+![Screenshot](images/Resim17.png)
 
 
 * Kaynak: Kadriye Mucit - https://www.mobilhanem.com/flutter-widgetlar-ve-stateless-stateful-widget-farki/
