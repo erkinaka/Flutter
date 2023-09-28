@@ -5,6 +5,7 @@ Visual Studio Code:
   VS Code içerisine Fluuter eklentileri kurulduktan sonra CTRL+SHIFT+P tuşlarına bastığımızda karşımıza gelen komut plaetinden Flutter:New Project seçilir.
 
 Android Studio:
+
   Programın açılış sayfasında Fluuter Project seçildiğinde yeni proje oluşturulur.
   
 Komut Satırı:
