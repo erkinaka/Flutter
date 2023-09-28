@@ -53,7 +53,46 @@ main metdonunun içersinde projemizde oluşturacağımız uygulamamıza ait ana 
 
 MyApp sınıfı Flutter'da iki temel sınıftan birini miras alabilir. Bunlar StatelessWidget ve StatefulWidget widgetlardır. Bu widgetların temel açıklamalarına yer verilmek ile birlikte daha sonra ayrıntısı ile anlatılacaktır.
 
-## StatelessWidget: Bu widgetlar i
+````
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+````
+
+## State nedir? *
+
+  State, oluşturduğumuz uygulamanın durumu olarak tanımlanabilir. Ekranın anlık görüntüsüdür. Bir ekranın görüntüsünü yani State’i etkileyen birçok widget vardır. Örnek vermek gerekirse: yazılar, resimler yine en basit örnekleridir. State değiştiğinde, ekrandaki görüntü de değişir. O yüzden, kullandığımız widgetlara göre state seçimini doğru kulanmak önemlidir.
   
+## Stateful ve Stateless Widget farkı nedir? *
+
+  Uygulamamızı Stateful veya Stateless widget sınıflarıyla oluşturuyoruz. Bu sınıflar da birer widgettır. Fakat neye göre Stateless veya Stateful widget sınıfı oluşturuyoruz, bu biraz kafa karıştırabiliyor. Şimdi sırayla incelediğimizde aslında çok kolay olduğunu beraber görebiliriz.
+
+Öncelikle anlamlarına bakarak ip ucu yakalayabiliriz.
+
+Stateless = Durumsuz,   Stateful = Durumsal 
+
+Eğer, kullanacağımız ekranda değişen herhangi bir yapımız yoksa bunu Stateless widget kullanarak oluştururuz. Sabit yapılarla, durumsuz bir haldir. Yani değişen bir şey yoktur. Örnek olarak, koyacağımız bir başlık yazısı gibi değişmeyen widgetlarla, stateless widget kullanırız.
+
+  Eğer, kullanacağımız ekranda widgetlarda değişiklik olacaksa bunu Stateful widget kullanarak oluştururuz. Değişken yapılarla, durumsal bir haldir yani belirli durumlara sahiptir. Örnek olarak, ekranda bir saat göstermek istersek veya sayaçlı bir sistem gibi sürekli değişen değerlerde, stateful widget kullanırız.
+
+
+## MaterialApp ve CupertinoApp Kök Widgetları
+
+Bu widgetler ekranımızın kök widgetları olup tasarımımızın temel kriterlerini belirler. Material tasarımı ekranımıza eklenen widgetlarda Material tasarım renkleri ve stilleri kullanırken, Cupertino IOS tarzı bir tasarım ve stilleri kullanır. 
+
+
+
+* Kaynak: Kadriye Mucit - https://www.mobilhanem.com/flutter-widgetlar-ve-stateless-stateful-widget-farki/
 
 
