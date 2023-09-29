@@ -34,7 +34,7 @@ home: Scaffold(
       ),
 ````
 
-![Screenshot](images/with_scaffold.NG)
+![Screenshot](images/with_scaffold.PNG)
 
 
   
