@@ -16,6 +16,18 @@ home: Scaffold(
 
 ## AppBar Özellikleri
 
+AppBar widget2 da diğer widgetlar gibi bir sınıftır ve özelleştirilebilen özellikleri vardır.
+
+Bunlar:
+  title: AppBar'da gözükmesini istediğimiz başlık burada yer alır. widget türünden bir parametre bekler. Burada Text widget'ı kullanılarak ekrana bir metin yazdırılabilir.
+  
+  backgroundColor: Arka plan rengini belirler. Renk vermek için Colors sınıfından faydalanılabilir.
+  
+  foregroundColor: Yazırengini ayarlar.
+  
+  leading: Başlık bölümünden önce yer alan bölümdür. Başka widgetlarda da bu alan bulunabilir. Genellik Icon'larla doldurululur.
+  
+  actions: Başlık bölümünden sonra kullanıcıya AppBar üzerinden ulaşabileceği farklı widgetlar için alan sağlar.
 
 ````
 //main.dart
@@ -60,5 +72,7 @@ class MyApp extends StatelessWidget {
 }
 
 ````
+
+![Screenshot](images/app_bar_app.png)
 
 
