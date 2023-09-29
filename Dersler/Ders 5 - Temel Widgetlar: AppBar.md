@@ -29,6 +29,14 @@ Bunlar:
   
   actions: Başlık bölümünden sonra kullanıcıya AppBar üzerinden ulaşabileceği farklı widgetlar için alan sağlar.
 
+  centerTitle: Başlığı ortalar. ortalamak için değeri true olarak ayarlanır.
+  
+  shadowColor: AppBar altına gölge atar.
+  
+  elevation: Gölgenin yayılma alanının büyüklüğünü belirler.
+  
+  titleSpacing: leading veya actions kullanılmadığı zaman AppBar'ın yatay eksenlerindeki boşluğu sağlar.
+
 ````
 //main.dart
 
@@ -57,6 +65,10 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.red,
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.add), Icon(Icons.delete)],
+          centerTitle: true,
+          shadowColor: Colors.white,
+          elevation: 50,
+          titleSpacing: 50,
         ),
         body: const Center(
           child: Placeholder(),
