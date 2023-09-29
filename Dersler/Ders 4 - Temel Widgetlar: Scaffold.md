@@ -43,4 +43,4 @@ class MyApp extends StatelessWidget {
 }
 
 ````
-![Screenshot](images/scaffold_app.png)
+![Screenshot](images/sacffold_app.png)
